@@ -2,7 +2,7 @@
   <div class='ranking'>
     <div class='ranking-item'>
       <div class='ranking-player-item'> Position </div>
-      <div class='ranking-player-item'> User </div>
+      <div class='ranking-player-item'> Player </div>
       <div class='ranking-player-item'> Max Level </div>
       <div class='ranking-player-item'> Time </div>
     </div>

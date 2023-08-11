@@ -1,7 +1,7 @@
 <template>
   <div class='navigation'>
     <div class='navigation-container'>
-      <router-link class='navigation-router-link' to='/'> <a>Inicio</a> </router-link> |
+      <router-link class='navigation-router-link' to='/'> <a>Home</a> </router-link> |
       <router-link class='navigation-router-link' to='/userConfig'> <a>Game</a> </router-link> |
       <router-link class='navigation-router-link' to='/ranking'> <a>Ranking</a> </router-link>
     </div>

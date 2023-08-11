@@ -7,9 +7,9 @@
         <a v-else class='userConfig-router-link invalid' :disabled='true'> PLAY </a>
       </form>
       <p>
-        ➤ Use the user with which you want to appear in the ranking.
+        ➤ Choose the name you want to appear in the ranking.
         <br>
-        ➤ Complete as many levels as you can in the shortest time possible.
+        ➤ Complete as many levels as possible in the shortest amount of time.
       </p>
     </div>
   </div>
