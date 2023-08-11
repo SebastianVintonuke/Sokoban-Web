@@ -91,6 +91,7 @@ export default class UserConfig extends Vue {
   padding-left: 20px;
   margin-right: 7px;
   text-decoration: none;
+  white-space: nowrap;
 }
 .userConfig-router-link:hover {
   color: #32ed43;
