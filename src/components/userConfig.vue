@@ -3,13 +3,13 @@
     <div class='userConfig-container'>
       <form>
         <input type='text' pattern='^[a-zA-Z0-9\-_]*$' @keyup='typing'>
-        <router-link v-if='isUserNameValid' :class="'userConfig-router-link ' + `${isUserNameValid ? '' : 'invalid'}`" :to="getPlayerLink()"> PLAY </router-link>
-        <a v-else class='userConfig-router-link invalid' :disabled='true'> PLAY </a>
+        <router-link v-if='isUserNameValid' :class="'userConfig-router-link ' + `${isUserNameValid ? '' : 'invalid'}`" :to="getPlayerLink()"> {{$t('USER_CONFIG.PLAY')}} </router-link>
+        <a v-else class='userConfig-router-link invalid' :disabled='true'> {{$t('USER_CONFIG.PLAY')}} </a>
       </form>
       <p>
-        ➤ Choose the name you want to appear in the ranking.
+        ➤ {{$t('USER_CONFIG.CONTENT_1')}}
         <br>
-        ➤ Complete as many levels as possible in the shortest amount of time.
+        ➤ {{$t('USER_CONFIG.CONTENT_2')}}
       </p>
     </div>
   </div>

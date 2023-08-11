@@ -1,6 +1,6 @@
 <template>
   <div class='game' id='game'>
-    <h2> Level: {{ nivel.number }} </h2>
+    <h2> {{$t('GAME.LEVEL')}}: {{ nivel.number }} </h2>
     <h3> {{ nivel.title }} </h3>
     <div class='tablero' :style='cssVarsTablero'>
       <div v-for='(fila, indexFila) in computedGrilla' v-bind:key='indexFila'>
@@ -18,12 +18,12 @@
       </div>
     </div>
     <div class='controls'>
-      <button type='button' class='controls-button controls-button-arrow-up' v-on:click='realizar_movimiento("NORTE")'> Up </button>
-      <button type='button' class='controls-button controls-button-arrow-left' v-on:click='realizar_movimiento("ESTE")'> Left </button>
-      <button type='button' class='controls-button controls-button-arrow-right' v-on:click='realizar_movimiento("OESTE")'> Right </button>
-      <button type='button' class='controls-button controls-button-arrow-down' v-on:click='realizar_movimiento("SUR")'> Down </button>
-      <button type='button' class='controls-button controls-button-reset' v-on:click='deshacer()'> UNDO </button>
-      <button type='button' class='controls-button controls-button-undo' v-on:click='reiniciar()'> RESET </button>
+      <button type='button' class='controls-button controls-button-arrow-up' v-on:click='realizar_movimiento("NORTE")'> {{$t('GAME.UP')}} </button>
+      <button type='button' class='controls-button controls-button-arrow-left' v-on:click='realizar_movimiento("ESTE")'> {{$t('GAME.LEFT')}} </button>
+      <button type='button' class='controls-button controls-button-arrow-right' v-on:click='realizar_movimiento("OESTE")'> {{$t('GAME.RIGHT')}} </button>
+      <button type='button' class='controls-button controls-button-arrow-down' v-on:click='realizar_movimiento("SUR")'> {{$t('GAME.DOWN')}} </button>
+      <button type='button' class='controls-button controls-button-reset' v-on:click='deshacer()'> {{$t('GAME.UNDO')}} </button>
+      <button type='button' class='controls-button controls-button-undo' v-on:click='reiniciar()'> {{$t('GAME.RESET')}} </button>
     </div>
   </div>
 </template>

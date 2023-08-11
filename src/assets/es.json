@@ -1,0 +1,35 @@
+{
+    "FOOTER": {
+        "CONTACT": "Contacto"
+    },
+    "GAME": {
+        "LEVEL": "Nivel",
+        "UP": "Arriba",
+        "LEFT": "Izquierda",
+        "RIGHT": "Derecha",
+        "DOWN": "Abajo",
+        "UNDO": "Deshacer",
+        "RESET": "Reiniciar"
+    },
+    "MAIN": {
+        "PLAY": "Jugar",
+        "RANKING": "Clasificación",
+        "DESCRIPTION": "Sokoban es un juego de rompecabezas clásico inventado en Japón, generalmente implementado como un videojuego. El juego original fue creado por Hiroyuki Imabayashi, quien en 1980 ganó una competencia contra una computadora con su juego. Hiroyuki Imabayashi es el presidente de Thinking Rabbit Inc. en Japón. A lo largo de los años, han aparecido muchas versiones del juego para todas las plataformas y se crean nuevas colecciones de niveles todo el tiempo. Sokoban significa 'guardián de almacén' en japonés. El objetivo del juego es empujar las cajas a su lugar correcto dentro de un pequeño almacén, con el menor número de empujones y pasos. Las cajas solo se pueden empujar, no jalar, y solo se puede empujar una caja a la vez. Suena fácil, pero los niveles varían desde muy fáciles hasta extremadamente difíciles, y algunos pueden llevar horas o incluso días para resolverse. La simplicidad y elegancia de las reglas han convertido a Sokoban en uno de los juegos de rompecabezas más populares."
+    },
+    "NAVIGATION": {
+        "HOME": "Inicio",
+        "GAME": "Juego",
+        "RANKING": "Clasificación"
+    },
+    "RANKING": {
+        "POSITION": "Posición",
+        "PLAYER": "Jugador",
+        "MAX_LEVEL": "Nivel Maximo",
+        "TIME": "Tiempo"
+    },
+    "USER_CONFIG": {
+        "PLAY": "JUGAR",
+        "CONTENT_1": "Elige el nombre que deseas que aparezca en la clasificación.",
+        "CONTENT_2": "Completa tantos niveles como sea posible en el menor tiempo posible."
+    }
+}

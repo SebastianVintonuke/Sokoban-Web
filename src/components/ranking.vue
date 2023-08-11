@@ -1,10 +1,10 @@
 <template>
   <div class='ranking'>
     <div class='ranking-item'>
-      <div class='ranking-player-item'> Position </div>
-      <div class='ranking-player-item'> Player </div>
-      <div class='ranking-player-item'> Max Level </div>
-      <div class='ranking-player-item'> Time </div>
+      <div class='ranking-player-item'> {{$t('RANKING.POSITION')}} </div>
+      <div class='ranking-player-item'> {{$t('RANKING.PLAYER')}} </div>
+      <div class='ranking-player-item'> {{$t('RANKING.MAX_LEVEL')}} </div>
+      <div class='ranking-player-item'> {{$t('RANKING.TIME')}} </div>
     </div>
     <div class='hr'></div>
     <div v-for='(player, index) in players' :key='index'>

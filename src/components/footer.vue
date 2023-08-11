@@ -2,7 +2,7 @@
   <footer class='footer'>
     <div class='footer_container'>
       <div>
-        <h2> Contacto </h2>
+        <h2> {{$t('FOOTER.CONTACT')}} </h2>
         <li><a href='https://www.linkedin.com/in/sebastian-vintoñuke' target='_blank'> LINKEDIN </a></li>
         <li><a href='https://github.com/SebastianVintonuke' target='_blank'> GITHUB </a></li>
         <li><a href='https://sebastianvintonuke.github.io/MyPortfolio' target='_blank'> PORTFOLIO </a></li>
